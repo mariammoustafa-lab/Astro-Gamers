@@ -148,7 +148,7 @@ export default function App() {
         <section className="intro">
           <div className="hello"><Astronaut /><p className="bubble" lang="en">Hello, space archaeologist!</p></div>
           <p className="muted">NASA Space Apps · NASA's Discarded Equipment Storytelling</p>
-          <h1>Asro Gamers</h1>
+          <h1>Astro Gamers</h1>
           <p className="lead">NASA left spacecraft, rovers and landers on the Moon, on Mars and in deep space. You are a space archaeologist. Visit all {ITEMS.length} sites and learn what was left behind.</p>
           <button className="btn big-btn" onClick={() => { setReady(true); setScr('map') }}>Start the expedition</button>
         </section>
